@@ -13,6 +13,7 @@ if (2...num-1).any?{|i| num % i == 0}
 else
   true
 end
+return p
 end
 #All even numbers are not prime except 2
 #All numbers less than 2 are not prime
