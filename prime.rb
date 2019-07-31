@@ -1,19 +1,18 @@
 def prime?(num)
 if num < 2 
-  false 
+  return false 
 end
 if num < -1
-  false
+  return false
 end
 if num == 2 || num == 3
- true
+ return true
 end
 if (2...num-1).any?{|i| num % i == 0}
-   false
+   return false
 else
-  true
+  return true
 end
-return p
 end
 #All even numbers are not prime except 2
 #All numbers less than 2 are not prime
